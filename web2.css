@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: crimson;
+    align-items: center;
+}
+.flex a{
+    text-decoration: none;
+    padding-inline: 20px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.flex h1{
+    font-size: 40px;
+}
+.flex a:hover{
+    color:black;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.home{
+    background: url(https://learn.canva.com/wp-content/uploads/2016/04/1.-mage-by-Rodion-Kutsaev-via-Unsplash.jpg);
+    height: 90vh;
+}
+.ww{
+    padding-left: 30px;
+}
+.p1 p{
+    font-size: 30px;
+    color: rgb(11, 10, 10);
+}
+.p1 .pp{
+    font-size: 100px;
+    color: crimson;
+}
+.p1 button:hover{
+    background-color: transparent;
+    color: crimson;
+}
+
+.h1 h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 90px;
+}
+.h1 p{
+    text-align: center;
+    font-size: 30px;
+    color: crimson;
+    margin-bottom: 40px;
+}
+.about{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    max-width: fit-content;
+    width: 500px;
+}
+.width{
+    width: 700px;
+}
+
+.p3{
+    font-size: 25px;
+}
+.head{
+    font-size: 40px;
+}
+.pp2{
+    color: crimson;
+}
+.btt button{
+    font-size: 25px;
+    padding: 12px;
+    padding-inline: 20px;
+    border-radius: 12px;
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.btt button:hover{
+    background-color: transparent;
+    color: crimson;
+}
+.hh1{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+.hh1 p{
+    color: crimson;
+    font-size: 25px;
+    margin-bottom: 90px;
+}
+.ser{
+    background-color: black;
+    height: 700px;
+    padding-top: 12px;
+}
+
+.ser-box{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box1{
+    text-align: center;
+    width: 350px;
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.box1:hover{
+    background-color: crimson;
+    scale: 1.05;
+}
+
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+}
+.max{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 80px;
+}
+.ha .title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 30px;
+}
+.ha p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.skills .skills-content .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.skills .skills-content p{
+    text-align: justify;
+    width: 400px;
+    font-size:20px ;
+}
+
+.right{
+    width: 50%;
+    margin-bottom: 50px;
+}
+.info{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.line{
+    width: 100%;
+    background-color: gray;
+    height: 3px;
+    
+} 
+.html{
+    height: 100%;
+    width: 80%;
+    background-color: crimson;
+}
+.css{
+    height: 100%;
+    width: 76%;
+    background-color: crimson;
+}
+.python{
+    height: 100%;
+    width: 56%;
+    background-color: crimson;
+}
+.c{
+    height: 100%;
+    width: 70%;
+    background-color: crimson;
+}
+.c1{
+    height: 100%;
+    width: 60%;
+    background-color: crimson;
+}
+.java{
+    height: 100%;
+    width: 50%;
+    background-color: crimson;
+}
+.sql{
+    height: 100%;
+    width: 70%;
+    background-color: crimson;
+}
+.teams{
+    background-color:black;
+    padding-bottom: 30px;
+    padding-top: 12px;
+}
+
+.tt{
+    margin-top: 40px;
+}
+.tt h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.tt p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+    color: white;
+}
+.boxes{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+}
+.box-1{
+    border: 1px solid black;
+    padding: 20px;
+    padding-inline: 40px;
+    background-color: rgb(41, 40, 40);
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+
+    border-radius: 7px;
+}
+.box-1 img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.box-1:hover{
+    background-color: crimson;
+    scale: 1.05;
+}
+
+.box-1 >div{
+    text-align: center;
+    padding: 12px;
+    font-size: 25px;
+    color: white;
+}
+.box-1 p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.max-size{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 80px;
+}
+.cnt{
+    text-align: center;
+    font-size: 30px;
+    font-weight:500;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+}
+.contact{
+    padding-top: 16px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+.column .left{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+
+.left .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase ;
+}
+.ppp1{
+    text-align: justify;
+    width: 500px;
+}
+.column .ff1{
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+.icon1{
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+.imm{
+    margin-left: 30px;
+}
+.in{
+    font-weight: 500;
+    font-size: 30px;
+}
+.he{
+    font-size: 20px;
+}
+.icon1 i{
+    color: crimson;
+}
+
+.title h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.name{
+    margin-right: 30px;
+    width: 100%;
+}
+.name [type=text]{
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+    outline: none;
+    border: 1px solid gray;
+
+}
+.email{
+    width: 100%;
+}
+.email [type=Email]{
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+    outline: none;
+    border: 1px solid gray;
+}
+.sub [type=text]{
+    font-size: 20px;
+    width: 100%;
+    padding: 14px;
+    outline: none;
+}
+.sub{
+    margin-bottom: 10px;
+}
+textarea{
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    padding: 12px;
+    outline: none;
+}
+.footer{
+    display: flex;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+}
+.footer p{
+    align-items: center;
+    color: white;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.res{
+    color: crimson;
+    cursor: pointer;
+}
+.footer a{
+    text-decoration: none;
+}
